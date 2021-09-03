@@ -59,6 +59,7 @@ I train on 300 epochs and the batch size is 2
 ## reults
 
 after 300 epoch we get 0.90 mAP (mean aevrage percision)
+![alt text](https://github.com/omkarsingh1008/Street_light-laptop_detection/blob/main/results.png)
 
 ## setup 
 
