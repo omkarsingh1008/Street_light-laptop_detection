@@ -7,13 +7,13 @@ images
   <br>
   <div align="center">
     <a >
-        <img src="https://github.com/omkarsingh1008/Street_light-laptop_detection/blob/main/frp-pole-500x500_jpg.rf.a4bbe158c139722c37a90bf2b42a9f43.jpg" width="2%"/>
+        <img src="https://github.com/omkarsingh1008/Street_light-laptop_detection/blob/main/frp-pole-500x500_jpg.rf.a4bbe158c139722c37a90bf2b42a9f43.jpg" width="50%"/>
     </a>
-    <img width="2%" />
+    <img width="50%" />
     <a >
-        <img src="https://github.com/omkarsingh1008/Street_light-laptop_detection/blob/main/young-attractive-man-sitting-on-260nw-1105215596_jpg.rf.082b88b3f994f2b030dd558c3b3c999c.jpg" width="2%"/>
+        <img src="https://github.com/omkarsingh1008/Street_light-laptop_detection/blob/main/young-attractive-man-sitting-on-260nw-1105215596_jpg.rf.082b88b3f994f2b030dd558c3b3c999c.jpg" width="50%"/>
     </a>
-    <img width="2%" />
+    <img width="50%" />
     </div>
 
 ## data collection
