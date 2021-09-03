@@ -59,3 +59,18 @@ cd Street_light-laptop_detection
 ```bash
 pip install -r requirements.txt
 ```
+## demo
+demo on video
+you have to run this cmd
+```bash
+python3 detect.py --weight best.pt --source video_path
+```
+demo on image
+```bash
+python3 detect.py --weight best.pt --source image_path
+```
+
+demo on webcam
+```bash
+python3 detect.py --weight best.pt --source 0
+```
