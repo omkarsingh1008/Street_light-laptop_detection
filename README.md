@@ -41,6 +41,8 @@ After using a tool LabelImg to label your images, export your labels to YOLO for
 * Box coordinates must be in normalized xywh format (from 0 - 1). If your boxes are in pixels, divide x_center and width by image width, and y_center and height by image height.
 * Class numbers are zero-indexed (start from 0).
 
+![alt text](https://github.com/omkarsingh1008/Street_light-laptop_detection/blob/main/labels.jpg)
+
 ## train
 
 For training. I used yolov5m PyTorch. m instance for medium.
@@ -56,9 +58,12 @@ yolov5m.pt file is used for transfer learning.
 
 I train on 300 epochs and the batch size is 2
 
+![alt text](https://github.com/omkarsingh1008/Street_light-laptop_detection/blob/main/train_batch1.jpg)
+
 ## reults
 
 after 300 epoch we get 0.90 mAP (mean aevrage percision)
+
 ![alt text](https://github.com/omkarsingh1008/Street_light-laptop_detection/blob/main/results.png)
 
 ## setup 
