@@ -2,7 +2,7 @@
 
 the aim of the is to detect a street light and laptop from image/video
 ## demo
-demo on video :- [laptop](https://drive.google.com/file/d/1JYJ8wWcUNEL9pzmpdizlTx14MEXPQVTU/view?usp=sharing),[street_light](https://drive.google.com/file/d/1EjPp3LqrsLYLiYqILxYw3lFYk1WG8QsF/view?usp=sharing)
+demo on video :- [laptop](https://drive.google.com/file/d/1JYJ8wWcUNEL9pzmpdizlTx14MEXPQVTU/view?usp=sharing) video link,[street_light](https://drive.google.com/file/d/1EjPp3LqrsLYLiYqILxYw3lFYk1WG8QsF/view?usp=sharing)video link.
 demo on images:-
 </div>
   <br>
