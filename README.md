@@ -30,11 +30,32 @@ After using a tool LabelImg to label your images, export your labels to YOLO for
 For training. I used yolov5m PyTorch. m instance for medium.
 yolov5 have different model-like small, medium and large 
 
-for training yolov5 you have to three file 
+we need 3 files to train yolov5 model
+
 1. data.yaml:- data related information
 2. yolov5m.yaml:- it's a configuration file
 3. (optional) yolov5m.pt:- it's weight file
 
 yolov5m.pt file is used for transfer learning.
 
-I train a model on 300 epochs and the batch size is 2
+I train on 300 epochs and the batch size is 2
+
+## reults
+
+after 300 epoch we get 0.90 mAP (mean aevrage percision)
+
+## setup 
+
+setup on loacl machine.
+
+Clone repo and install requirements.txt in a Python>=3.6.0 environment, including PyTorch>=1.7.
+```bash
+git clone https://github.com/omkarsingh1008/Street_light-laptop_detection.git
+```
+```bash
+cd Street_light-laptop_detection
+```
+
+```bash
+pip install -r requirements.txt
+```
