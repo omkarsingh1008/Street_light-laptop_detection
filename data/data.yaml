@@ -1,0 +1,5 @@
+train: /media/omkar/DATA/sniffer/yolov5_model/yolov5/data/train
+val: /media/omkar/DATA/sniffer/yolov5_model/yolov5/data/test
+
+nc: 2
+names: ['laptop', 'street_light']
