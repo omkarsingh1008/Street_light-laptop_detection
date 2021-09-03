@@ -1,5 +1,8 @@
 ### Street_light-laptop_detection
 
+the aim of the is detect a street lights and laptop from image/video
+
+
 <div align="center">
     <a href="https://github.com/ultralytics">
         <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-social-github.png" width="3%"/>
