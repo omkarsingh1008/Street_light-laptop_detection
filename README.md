@@ -1,6 +1,20 @@
 # Street_light-laptop_detection
 
 the aim of the is to detect a street light and laptop from image/video
+## examples
+images
+</div>
+  <br>
+  <div align="center">
+    <a >
+        <img src="https://github.com/omkarsingh1008/Street_light-laptop_detection/blob/main/frp-pole-500x500_jpg.rf.a4bbe158c139722c37a90bf2b42a9f43.jpg" width="2%"/>
+    </a>
+    <img width="2%" />
+    <a >
+        <img src="https://github.com/omkarsingh1008/Street_light-laptop_detection/blob/main/young-attractive-man-sitting-on-260nw-1105215596_jpg.rf.082b88b3f994f2b030dd558c3b3c999c.jpg" width="2%"/>
+    </a>
+    <img width="2%" />
+    </div>
 
 ## data collection
 
