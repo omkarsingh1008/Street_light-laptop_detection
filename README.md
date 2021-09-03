@@ -61,7 +61,7 @@ pip install -r requirements.txt
 ```
 ## demo
 demo on video
-you have to run this cmd
+
 ```bash
 python3 detect.py --weight best.pt --source video_path
 ```
