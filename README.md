@@ -27,7 +27,28 @@ install beualtfull soup
 ```bash
 pip install bs4
 ```
-And i also create one script which can extract images from websites. If you want to use script you have to pass url and it will extract images from website. 
+And i also create one script which can extract images from websites. If you want to use script you have to pass url and it will extract images from website.
+```bash
+import requests 
+from bs4 import BeautifulSoup 
+    
+def getdata(url): 
+    r = requests.get(url) 
+    return r.text 
+url="https://www.google.com/search?q=highway+street+light+images&tbm=isch&hl=en-GB&chips=q:highway+street+light,g_1:tall:KHeRz6WyyhM%3D,online_chips:roadway+lighting:dG4QW9kVQkM%3D&sa=X&ved=2ahUKEwjHpKDkwt_yAhVAidgFHZBzCQ4Q4lYoCHoECAEQIw&biw=1905&bih=881"
+
+htmldata = getdata(url) 
+soup = BeautifulSoup(htmldata, 'html.parser') 
+for i,item in enumerate(soup.find_all('img')):
+    img_url=item['src']
+    try:
+        response=requests.get(img_url)
+        file=open('street_light/street_light3'+'_'+str(i),'wb')
+        file.write(response.content)
+        file.close()
+    except:
+        print('image not found')
+```
 
 the size of dataset is 150 per label
 
