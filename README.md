@@ -56,7 +56,7 @@ we need 3 files to train yolov5 model
 
 yolov5m.pt file is used for transfer learning.
 
-I train on 300 epochs and the batch size is 2
+train model on 300 epochs and the batch size is 2
 
 ![alt text](https://github.com/omkarsingh1008/Street_light-laptop_detection/blob/main/train_batch1.jpg)
 
