@@ -27,7 +27,7 @@ install beualtfull soup
 ```bash
 pip install bs4
 ```
-And i also create one script which can extract images from websites.
+And i also create one script which can extract images from websites. If you want to use script you have to pass url and it will extract images from website. 
 
 the size of dataset is 150 per label
 
